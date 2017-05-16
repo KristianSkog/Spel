@@ -1,0 +1,33 @@
+{
+  "name": "kajsas-rosor",
+  "version": "1.0.0",
+  "description": "School project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KristianSkog/Kajsas-Rosor.git"
+  },
+  "author": "Kristian Skog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KristianSkog/Kajsas-Rosor/issues"
+  },
+  "homepage": "https://github.com/KristianSkog/Kajsas-Rosor#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "cssnano": "^3.10.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-jscs": "^3.0.1",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^2.0.0",
+    "matchdep": "^1.0.1",
+    "pixrem": "^3.0.2"
+  }
+}

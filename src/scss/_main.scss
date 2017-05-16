@@ -1,0 +1,42 @@
+#board {
+    background-color: rgba(200, 200, 200, 1); 
+    border: 1px solid #000;
+    overflow: auto; 
+}
+#board > div {
+    border: 1px solid #000;
+    width: 21px;
+    height: 21px; 
+    float: left;
+    margin: 7px;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+}
+@media screen and (min-width: 414px) {
+    #board {
+        width: 100%;
+    }
+    #board > div {
+        width: 41px;
+        height: 41px; 
+        font-size: 34px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #board {
+        max-width: 800px;
+        padding: 24px;
+        margin: 0 auto;
+    }
+    #board > div {
+        width: 71px;
+        height: 71px; 
+        font-size: 54px;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+}
